@@ -707,8 +707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8713797626445488366, guid: fd4ae92bbafeb8e4786960c5ff8c156c, type: 3}
-  rows: 4
-  columns: 12
+  rows: 2
+  columns: 6
   speed: 0.7
 --- !u!4 &1490212654
 Transform:

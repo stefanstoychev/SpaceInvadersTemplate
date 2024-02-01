@@ -17,13 +17,15 @@ public class EnemyController : MonoBehaviour
         
     }
 
-    public void OnDestroy()
+    public void Kill()
     {
         var gos = GameObject.FindGameObjectsWithTag("Enemy");
 
-        if (gos.Length == 0)
+        if (gos.Length == 1)
         {
             SceneManager.LoadScene("YouWinScene");
         }
+
+        Destroy(gameObject);
     }
 }
